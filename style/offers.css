@@ -8,7 +8,7 @@
 }
 
 .title--fire::after {
-    content:url(/images/flame.svg);
+    content:url(/air-asia/images/flame.svg);
     display: inline-block;
     height: 28px;
     width: 21px;
