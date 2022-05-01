@@ -18,7 +18,7 @@
 .offers__item {
     display: inline-block;
     width: 360px;
-    height: 449px;
+    min-height: 449px;
     font-size: 14px;
     position: relative;
     background-color: white;
