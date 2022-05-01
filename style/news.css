@@ -11,7 +11,7 @@
 
 .news__item {
     display: inline-block;
-    height: 394px;
+    min-height: 394px;
     width: 555px;
     margin-right: 23px;
     vertical-align: middle;
