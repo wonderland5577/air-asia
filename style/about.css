@@ -2,64 +2,55 @@
 =========================================== */
 
 .about {
-    width: 1140px;
-    height: 552px;
-    /* margin-top: 106px; */
-    margin-left: 390px;
-    margin-right: 390px;   
-    position: relative;
+    min-height: 552px;
 }
 
-.about__content {
-    position: absolute;
-    width: 785px;
-    height: 455px;
-    bottom: 0;
-    right: 0;
+.about__container {
+    display: flex;
 }
 
 .about__image {
     width: 490px;
     height: 505px;
-    position: absolute;
-    left: 0;
-    top: 0;
     border-radius: 5px;
+    align-self: flex-start;
+    margin-top: -85px;
 }
 
 .about__content-background {
-    position: absolute;
     width: 787px;
     height: 455px;
-    right: 0;
-    bottom: 0;
     border-radius: 5px;
+    margin-left: -138px;
+    margin-top: 15px;
+}
+
+.about__content {
+    width: 785px;
+    height: 455px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 82px;
+    margin-left: -705px;
 }
 
 .about__description {
-    position: absolute;
     width: 500px;
     height: 45px;
-    left: 80px;
-    top: 120px;
-    margin-top: 37px;
     color: black;
-    display: inline-block;
     line-height: 1.7;
+    margin-top: -15px;
 }
 
 .about__title {
-    position: absolute;
-    left: 80px;
-    top: 70px;
     color: black;
+    z-index: 10;
 }
 
 .about__button {
-    position: absolute;
     left: 79px;
     top: 334px;
-    display: inline-block;
+    display: block;
     height: 55px;
     width: 168px;
     border-radius: 35px;
@@ -68,7 +59,7 @@
     color: white;
     font-size: 14px;
     font-weight: bold;
-    /* letter-spacing: 0.2px; */
+    margin-top: 133px;
 }
 
 .about__button:hover {

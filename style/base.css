@@ -13,11 +13,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	color: white;
 	margin: 0;
-
-	background-image: url(/air-asia/images/background.jpg);
-    background-repeat: no-repeat;
-    background-size: auto, auto, cover;
-    background-color: #001821;
 }
 
 button {
@@ -74,8 +69,29 @@ h2 {
     margin-bottom: 51px;
 }
 
+.wrapper {
+	min-width: 1141px;
+	min-height: 100%;
+
+	background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, auto, cover;
+    background-color: #001821;
+}
+
+.wrapper--second {
+	min-width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper__content--second {
+	flex: 1;
+	background-color: white;
+}
+
+
 .container {
-    width: 1141px;
-    margin-left: 390px;
-    margin-right: 390px;
+    margin: 0 auto;
+	width: 1141px;
 }

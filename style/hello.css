@@ -2,38 +2,38 @@
 =========================================== */
 
 .hello {
-    width: 511px;
     height: 333px;
     margin-bottom: 246px;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .hello__title {
-    display: inline-block;
     width: 511px;
-    margin-bottom: -2px;
-    height: 197px;
+    margin-bottom: 28px;
     font-size: 72px;
     font-weight: bold;
 }
 
 .hello__subtitle {
     font-size: 18px;
-    margin-top: 28px;
-    /* display: inline-block; */
+    flex-wrap: wrap;
+    align-self: flex-start;
+    margin-bottom: 30px;
 }
 
 .hello__button {
-    display: inline-block;
-    height: 54px;
+    display: block;
+    height: 55px;
     width: 168px;
-    margin-top: 31px;
     border-radius: 35px;
     background-color: #F5170E;
     text-align: center;
     padding-top: 17px;
     font-size: 15px;
     font-weight: bold;
+    margin-left: 1px;
+
 }
 
 .hello__button:hover {

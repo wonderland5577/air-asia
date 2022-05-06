@@ -1,46 +1,103 @@
-/* ----------------HEADER------------------
-=========================================== */
-
-.header__container {
-    width: 1141px;
-    height: 77px;
-    margin-top: 27px;
-    margin-bottom: 92px;
-    margin-left: 390px;
-    margin-right: 390px;
-    position: relative;
+.header {
+    height: 123px;
+    margin-bottom: 46px;
+    padding-top: 26px;
 }
 
-/* ----------------LOGO------------------
-=========================================== */
+.header--second {
+	background-image: url(/images/headline1.jpg);
+    background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: black;
+	padding-top: 29px;
+    min-height: 412px;
+    margin-bottom: 98px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header__description {
+    margin-top: 100px;
+}
+
+.title--second {
+    margin-bottom: 80px;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.breadcrumbs {
+}
+
+.breadcrumbs__menu {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__link {
+    font-size: 14px;
+    text-decoration: underline;
+    color: #9A9A9A;
+}
+
+.breadcrumbs__link:hover {
+    text-decoration: none;
+    color: #DA0100;
+}
+
+.breadcrumbs__item:after {
+    content: "/";
+    text-decoration: none;
+}
+
+.breadcrumbs__item:last-child::after {
+    display: none;
+}
+
+.breadcrumbs__item--active {
+    font-weight: bold;
+}
+
+
+
+.container__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.header__col {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.container__header--second {
+    margin-bottom: -10px;
+}
 
 .logo {
-    position: absolute;
-    left:0;
-    top: 0;
+    margin-bottom: 10px;
+    margin-right: 79px;
 }
 
-/* ----------------MENU------------------
-=========================================== */
+
 
 .menu {
-    display: inline-block;
-    position: absolute;
-    top: 14px;
-    left: 85px;
-    margin-left: 79px;
-    width: 350px;
-    vertical-align: middle;
+    min-width: 264px;
 }
 
 .menu__list {
-    
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu__item {
     font-size: 14px;
-    display: inline-block;
-    margin-right: 50px;
 }
 
 .menu__link {
@@ -52,22 +109,19 @@
     color: #DA0100;
 }
 
-/* ----------------CONTACTS------------------
-=========================================== */
+
+
+
 
 .contacts {
-    display: inline-block;
-    position: absolute;
-    z-index: 100;
-    right:0;
-    top: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .contacts__phone {
     font-size: 26px;
     font-style: normal;
     text-decoration: none;
-    display: inline-block;
 }
 
 .contacts__info {
@@ -75,10 +129,9 @@
     color: #98A4A8;
     font-weight: regular;
     font-style:normal;
-    position: absolute;
-    right: 1px;
-    top: 29px;
     text-decoration-line: underline;
+    align-self: flex-end;
+    margin-top: -5px;
 }
 
 .contacts__info:hover {

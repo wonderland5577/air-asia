@@ -3,20 +3,22 @@
 
 .news {
     margin-bottom: 230px;
-    position: relative;    
 }
 
 .news__list {
+    display: flex;
 }
 
 .news__item {
-    display: inline-block;
+    display: flex;
     min-height: 394px;
     width: 555px;
-    margin-right: 23px;
+    margin-right: 26px;
     vertical-align: middle;
-    position: relative;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 53px;
 }
 
 .news__item:last-child {
@@ -26,32 +28,24 @@
 .news__pic {
     width: 100%;
     height: 100%;
-    z-index: -1;
     border-radius: 5px;
 }
 
 .news__month {
-    position: absolute;
-    display: inline-block;
-    left: 30px;
     font-size: 14px;
-    top: 254px;
+    margin-top: -140px;
+    margin-bottom: 14px;
+    margin-left: 31px;
 }
 
 .news__title {
-    position: absolute;
-    top: 60%;
     margin-bottom: 15px;
-    left: 30px;
-    display: inline-block;
     font-size: 24px;
     font-weight: bold;
-    top: 286px;
+    margin-left: 31px;
+    margin-bottom: 3px;
 }
 
 .news__description {
-    position: absolute;
-    display: inline-block;
-    left: 30px;
-    top: 325px;
+    margin-left: 31px;
 }

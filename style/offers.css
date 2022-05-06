@@ -2,27 +2,30 @@
 ============================================ */
 
 .offers {
-    width: 1140px;
     height: 549px;
     margin-bottom: 127px;
+    display: flex;
+    flex-direction: row;
 }
 
 .title--fire::after {
-    content:url(/air-asia/images/flame.svg);
+    content: url(/images/flame.svg);
     display: inline-block;
     height: 28px;
     width: 21px;
     margin-left: 15px;
 }
 
+.offers__list {
+    display: flex;
+}
+
 .offers__item {
-    display: inline-block;
     width: 360px;
     min-height: 449px;
     font-size: 14px;
-    position: relative;
     background-color: white;
-    margin-right: 25px;
+    margin-right: 28px;
     border-radius: 8px;
 }
 
@@ -31,37 +34,34 @@
 }
 
 .offers__content {
-    position: relative;
     top: 144px;
 }
 
 .offers__pic {
     width: 100%;
     height: 144px;
-    position: absolute;
     top:0;
     z-index: 100;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    margin-bottom: 33px;
 }
 
 .offers__title {
-    position: absolute;
     top: 33px;
     font-size: 24px;
     font-weight: bold;
     color: #303030;
-    left: 22px;
+    margin-left: 22px;
+    margin-bottom: 21px;
 }
 
 .offers__text {
-    position: absolute;
-    top: 135px;
-    display: inline-block;
     width: 324px;
     color: black;
-    left: 22px;
     line-height: 1.55;
+    margin-left: 22px;
+    margin-bottom: 22px;
 }
 
 /* ----------------OFFERSS-FEATURES------------------
@@ -69,72 +69,51 @@
 
 .offers__features {
     font-size: 12px;
-    position: absolute;
-    left: 29px;
-    top: 87px;
-    width: 300px;
+    margin-left: 29px;
+    display: flex;
+    margin-bottom: 24px;
 }
 
 .offers__feature {
-    position: relative;
-    display: inline-block;
     width: 135px;
     margin-right: 10px;
+    display: flex;
 
+}
+
+.offers__feature-icon {
+    margin-right: 10px;
 }
 
 .offers__feature-text {
     color: #303030;
-    display: inline-block;
     margin-bottom: 2px;
-    vertical-align: middle;
-    position: absolute;
     right: 13px;
-    bottom: 0;
     font-size: 16px;
+    align-self: flex-end;
 }
 
-.offers__feature-icon {
-    display: block;
-    /* margin-right: 10px; */
-    /* padding: 1px; */
-}
 
 /* ----------------OFFERSS BUTTON------------------
 ============================================ */
 
 .offers__button {
-    display: inline-block;
-    position: absolute;
     height: 55px;
     width: 135px;
+    display: block;
     border-radius: 35px;
     background-color: white;
     border: 1.5px solid #F5170E;
     color: #F5170E;
     text-align: center;
     padding-top: 17px;
-    left: 22px;
-    top: 224px;
+    /* left: 22px;
+    top: 224px; */
     font-weight: bold;
+    margin-left: 24px;
 }
 
 .offers__button:hover {
     background-color: #F5170E;
     color: white;
-}
-
-/* .button--light {
-    display: inline-block;
-    position: absolute;
-    height: 55px;
-    width: 135px;
-    border-radius: 35px;
-    background-color: white;
-    border: 1.5px solid #F5170E;
-    color: #F5170E;
-    text-align: center;
-    padding-top: 17px;
-    left: 23px;
-    top: 224px; */
 }
