@@ -9,7 +9,7 @@
 }
 
 .title--fire::after {
-    content: url(/images/flame.svg);
+    content: url(../images/flame.svg);
     display: inline-block;
     height: 28px;
     width: 21px;
@@ -21,12 +21,14 @@
 }
 
 .offers__item {
-    width: 360px;
+    max-width: 362px;
     min-height: 449px;
     font-size: 14px;
     background-color: white;
     margin-right: 28px;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
 }
 
 .offers__item:last-child {

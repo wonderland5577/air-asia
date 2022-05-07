@@ -3,18 +3,22 @@
     height: 93px;    
 }
 
+.footer--second {
+    min-height: 132px;
+    display: flex;
+}
+
 .footer__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 12px;
+    padding-top: 20px;
 }
 
 
 .footer__col {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
 }
 
 
@@ -41,6 +45,10 @@
 
 .social-media__item:hover {
     opacity: 100%;
+}
+
+.footer__contacts--second {
+    padding-top: 10px;
 }
 
 

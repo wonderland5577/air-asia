@@ -3,17 +3,17 @@
 
 .paginator {
     margin-top: 2px;
-    margin-bottom: 147px;
     width: 345px;
     height: 30px;
     display: flex;
     margin-left: 382px;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
 }
 
 .paginator__display {
     font-size: 16px;
+    padding-bottom: 3px;
 }
 
 .paginator__list {
@@ -56,5 +56,5 @@
 .paginator--black {
     color: black;
     margin-left: 395px;
-    margin-bottom: 170px;
+    /* margin-bottom: 170px; */
 }

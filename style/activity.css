@@ -5,6 +5,10 @@
     background-color: white;
 }
 
+.activity__container {
+    margin-bottom: 75px;
+}
+
 .activity__list {
     display: flex;
     flex-direction: column;

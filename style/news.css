@@ -34,16 +34,15 @@
 .news__month {
     font-size: 14px;
     margin-top: -140px;
-    margin-bottom: 14px;
+    margin-bottom: 18px;
     margin-left: 31px;
 }
 
 .news__title {
-    margin-bottom: 15px;
     font-size: 24px;
     font-weight: bold;
     margin-left: 31px;
-    margin-bottom: 3px;
+    margin-bottom: 9px;
 }
 
 .news__description {
