@@ -6,7 +6,7 @@
 }
 
 .activity__container {
-    margin-bottom: 75px;
+    margin-bottom: 85px;
 }
 
 .activity__list {
@@ -17,7 +17,7 @@
 
 .activity__item {
     display: flex;
-    margin-bottom: 49px;
+    margin-bottom: 47px;
 }
 
 .activity__pic {
@@ -36,8 +36,8 @@
     color: black;
     font-size: 36px;
     font-weight: bold;
-    margin-bottom: 29px;
-    margin-top: 11px;
+    margin-bottom: 32px;
+    margin-top: 18px;
 }
 
 .activity__description {

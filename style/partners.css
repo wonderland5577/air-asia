@@ -1,14 +1,11 @@
 .partners {
-    max-height: 537px;
+    /* max-height: 537px; */
     background-color: #F4F5F5;
-}
-
-.partners__container {
-    padding-bottom: 80px;
+    padding-bottom: 35px;
 }
 
 .partners__title {
-    padding-top: 95px;
+    padding-top: 90px;
     margin-bottom: 90px;
     color: black;
     font-size: 48px;
@@ -25,13 +22,13 @@
 .partners__item {
     margin-right: 45px;
     margin-bottom: 73px;
+}
 
+.partners__item:nth-child(4n) {
 }
 
 .partners__img {
-    width: 200px;
-    height: 75px;
-    filter: grayscale(100);
+    filter: grayscale(1);
 }
 
 .partners__img:hover {

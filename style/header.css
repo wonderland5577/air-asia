@@ -7,12 +7,12 @@
 
 .header--second {
 	background-image: url(../images/headline1.jpg);
-    background-size: 100%;
+    background-size: cover;
 	background-repeat: no-repeat;
-	background-color: black;
+	background-color: #001821;
 	padding-top: 29px;
-    min-height: 412px;
-    margin-bottom: 98px;
+    min-height: 408px;
+    margin-bottom: 95px;
     display: flex;
     flex-direction: column;
 }
@@ -38,7 +38,7 @@
 	background-image: url(../images/headline1.jpg);
     background-size: 100%;
 	background-repeat: no-repeat;
-	background-color: black;
+	background-color: #001821;
 	padding-top: 29px;
     min-height: 412px;
     margin-bottom: 98px;

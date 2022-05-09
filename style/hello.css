@@ -3,7 +3,8 @@
 
 .hello {
     height: 333px;
-    margin-bottom: 295px;
+    margin-bottom: 248px;
+    margin-top: 75px;
     display: flex;
     flex-direction: column;
 }
@@ -30,7 +31,7 @@
     border-radius: 35px;
     background-color: #F5170E;
     text-align: center;
-    padding-top: 17px;
+    padding-top: 20px;
     font-size: 15px;
     font-weight: bold;
     margin-left: 1px;

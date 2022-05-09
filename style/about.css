@@ -1,55 +1,41 @@
-/* ----------------ABOUT------------------
-=========================================== */
-
-.about {
-    min-height: 552px;
-}
-
 .about__container {
+    height: 552px;
     display: flex;
+    margin-bottom: 80px;
 }
 
-.about__image {
+.about__container::before {
+    content: "";
+    display: block;
     width: 490px;
     height: 505px;
+    background: url(../images/about1.jpg) center center / cover no-repeat;
     border-radius: 5px;
-    align-self: flex-start;
-    margin-top: -85px;
-}
-
-.about__content-background {
-    width: 787px;
-    height: 455px;
-    border-radius: 5px;
-    margin-left: -138px;
-    margin-top: 15px;
 }
 
 .about__content {
     width: 785px;
     height: 455px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 82px;
-    margin-left: -705px;
-}
-
-.about__description {
-    width: 500px;
-    height: 45px;
+    border-radius: 5px;
+    background: url(../images/about2.jpg) center center / cover no-repeat;
+    margin-top: 97px;
     color: black;
-    line-height: 1.7;
-    margin-top: -15px;
+    margin-left: -138px;
+    padding-top: 70px;
+    padding-left: 81px;
+    padding-right: 202px;
 }
 
 .about__title {
-    color: black;
-    z-index: 10;
+    margin-bottom: 37px;
+}
+
+.about__description {
+    line-height: 1.75;
+    margin-bottom: 45px;
 }
 
 .about__button {
-    left: 79px;
-    top: 334px;
     display: block;
     height: 55px;
     width: 168px;
@@ -59,7 +45,6 @@
     color: white;
     font-size: 14px;
     font-weight: bold;
-    margin-top: 133px;
 }
 
 .about__button:hover {

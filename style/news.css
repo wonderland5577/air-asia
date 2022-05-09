@@ -2,23 +2,21 @@
 ========================================= */
 
 .news {
-    margin-bottom: 230px;
+    margin-bottom: 145px;
 }
 
 .news__list {
     display: flex;
+    margin-bottom: 55px;
 }
 
 .news__item {
     display: flex;
-    min-height: 394px;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
     width: 555px;
     margin-right: 26px;
-    vertical-align: middle;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 53px;
 }
 
 .news__item:last-child {
@@ -26,25 +24,29 @@
 }
 
 .news__pic {
-    width: 100%;
-    height: 100%;
     border-radius: 5px;
 }
 
+.news__content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    padding: 0px 0px 26px 31px;
+    min-height: 138px;
+    width: 100%;
+}
+
 .news__month {
-    font-size: 14px;
-    margin-top: -140px;
     margin-bottom: 18px;
-    margin-left: 31px;
+    font-size: 14px;
 }
 
 .news__title {
+    margin-bottom: 9px;
     font-size: 24px;
     font-weight: bold;
-    margin-left: 31px;
-    margin-bottom: 9px;
 }
 
 .news__description {
-    margin-left: 31px;
 }
