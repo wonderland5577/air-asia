@@ -24,6 +24,8 @@
     padding-top: 70px;
     padding-left: 81px;
     padding-right: 202px;
+    display: flex;
+    flex-direction: column;
 }
 
 .about__title {
