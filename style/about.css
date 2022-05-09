@@ -35,11 +35,13 @@
 .about__description {
     line-height: 1.75;
     margin-bottom: 45px;
+    overflow: hidden;
 }
 
 .about__button {
     display: block;
-    height: 55px;
+    margin-bottom: 46px;
+    min-height: 55px;
     width: 168px;
     border-radius: 35px;
     background-color: #F5170E;
