@@ -84,7 +84,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 
@@ -100,10 +99,9 @@
     margin-right: 79px;
 }
 
-
-
 .menu {
     min-width: 264px;
+    padding-top: 5px;
 }
 
 .menu__list {

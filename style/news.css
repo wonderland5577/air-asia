@@ -7,7 +7,7 @@
 
 .news__list {
     display: flex;
-    margin-bottom: 55px;
+    margin-bottom: 52px;
 }
 
 .news__item {
@@ -15,7 +15,7 @@
     flex-direction: column;
     position: relative;
     overflow: hidden;
-    width: 555px;
+    width: 557px;
     margin-right: 26px;
 }
 
@@ -32,7 +32,7 @@
     flex-direction: column;
     position: absolute;
     bottom: 0;
-    padding: 0px 0px 26px 31px;
+    padding: 0px 44px 26px 31px;
     min-height: 138px;
     width: 100%;
 }
@@ -43,10 +43,19 @@
 }
 
 .news__title {
-    margin-bottom: 9px;
+    margin-bottom: 6px;
     font-size: 24px;
     font-weight: bold;
 }
 
 .news__description {
+    line-height: 24px;
+}
+
+.news__item:nth-child(2) .news__content .news__title {
+    margin-bottom: 1px;
+}
+
+.news__item:nth-child(2) .news__content {
+    padding-left: 28px;
 }

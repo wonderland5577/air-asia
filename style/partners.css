@@ -1,12 +1,11 @@
 .partners {
-    /* max-height: 537px; */
     background-color: #F4F5F5;
     padding-bottom: 35px;
 }
 
 .partners__title {
-    padding-top: 90px;
-    margin-bottom: 90px;
+    padding-top: 92px;
+    margin-bottom: 72px;
     color: black;
     font-size: 48px;
     font-weight: bold;
@@ -20,17 +19,27 @@
 }
 
 .partners__item {
-    margin-right: 45px;
-    margin-bottom: 73px;
+    margin-left: 45px;
+    margin-bottom: 30px;    
 }
 
-.partners__item:nth-child(4n) {
+.partners__item:nth-child(4n+1) {
+    margin-left: 0;
 }
 
-.partners__img {
+.partners__link {
+    text-decoration: none;
+    display: flex;
+    width: 250px;
+    height: 100px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.partners__link {
     filter: grayscale(1);
 }
 
-.partners__img:hover {
+.partners__link:hover {
     filter: grayscale(0);
 }

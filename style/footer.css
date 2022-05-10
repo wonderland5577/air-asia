@@ -48,10 +48,9 @@
     opacity: 100%;
 }
 
-.footer__contacts--second {
-    padding-top: 10px;
+.footer__contacts {
+    padding-top: 5px;
 }
-
 
 
 .contacts__text {

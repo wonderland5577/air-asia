@@ -61,7 +61,7 @@
 .offers__text {
     width: 324px;
     color: black;
-    line-height: 1.55;
+    line-height: 21px;
     margin-left: 22px;
     margin-bottom: 25px;
 }
@@ -73,7 +73,7 @@
     font-size: 12px;
     margin-left: 29px;
     display: flex;
-    margin-bottom: 24px;
+    margin-bottom: 27px;
 }
 
 .offers__feature {

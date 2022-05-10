@@ -1,0 +1,53 @@
+.wrapper--welcome {
+    background-image: url(../images/bg.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.welcome__container {
+    /* background-image: url(../images/shades.png);
+    background-repeat: no-repeat;
+    background-position: center center; */
+    
+    margin-bottom: 8px;
+    align-self: center;
+
+}
+
+.welcome__img {
+    position: absolute;
+}
+
+.big-logo {
+    align-self: center;
+}
+
+.moto {
+    font-size: 18px;
+    align-self: center;
+    padding-bottom: 53px;
+}
+
+.login {
+    display: block;
+    align-self: center;
+    height: 55px;
+    width: 168px;
+    border-radius: 35px;
+    background-color: #DA0100;
+    color: white;
+    border: 1px solid #DA0100;
+    text-align: center;
+    padding-top: 19px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
