@@ -102,20 +102,24 @@
 .offers__button {
     height: 55px;
     width: 135px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 35px;
     background-color: white;
     border: 1.5px solid #F5170E;
     color: #F5170E;
-    text-align: center;
-    padding-top: 17px;
-    /* left: 22px;
-    top: 224px; */
     font-weight: bold;
     margin-left: 24px;
+
+    transition: .2s linear;
+
 }
 
 .offers__button:hover {
     background-color: #F5170E;
     color: white;
+
+    transition: .2s linear;
+
 }

@@ -32,17 +32,26 @@
     text-align: center;
     font-weight: bold;
     line-height: 30px;
+
+    transition: .2s linear;
+
 }
 
 .paginator__link:hover {
     color: #F5170E;
     background-color: white;
+
+    transition: .1s linear;
+
 }
 
 
 .paginator__link--orange:hover {
     color: white;
     background-color: #F5170E;
+
+    transition: .05s linear;
+
 }
 
 .paginator--black {

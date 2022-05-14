@@ -47,25 +47,31 @@
     flex: 1;
 }
 
-.activity__btn {
+.button--activity {
     display: block;
     height: 55px;
     width: 168px;
     border-radius: 35px;
     background-color: white;
+    text-align: center;
     color: #DA0100;
     border: 1px solid #DA0100;
-    text-align: center;
     font-size: 15px;
     font-weight: bold;
-    margin-left: 1px;
 
     margin-bottom: 20px;
+
+
+    transition: .2s linear;
+
 }
 
-.activity__btn:hover {
+.button--activity:hover {
     background-color: #DA0100;
     color: white;
+
+    transition: .2s linear;
+
 }
 
 

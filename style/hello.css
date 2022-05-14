@@ -3,14 +3,25 @@
 
 .hello {
     height: 333px;
-    margin-bottom: 248px;
     margin-top: 75px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+
+    margin-bottom: 248px;
+
+}
+
+.hello__container {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-bottom: 248px;
 }
 
 .hello__title {
-    width: 511px;
+    max-width: 511px;
+    width: 100%;
     margin-bottom: 26px;
     font-size: 72px;
     font-weight: bold;
@@ -24,20 +35,24 @@
     margin-bottom: 30px;
 }
 
-.hello__button {
-    display: block;
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 55px;
     width: 168px;
     border-radius: 35px;
     background-color: #F5170E;
-    text-align: center;
-    padding-top: 20px;
-    font-size: 15px;
+    color: white;
+    font-size: 14px;
     font-weight: bold;
-    margin-left: 1px;
+    cursor: pointer;
 
+    transition: .2s linear;
 }
 
-.hello__button:hover {
+.button:hover {
     background-color: #DA0100;
+
+    transition: .2s linear;
 }

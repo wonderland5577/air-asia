@@ -13,6 +13,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	color: white;
 	margin: 0;
+	overflow-x: hidden;
 }
 
 button {

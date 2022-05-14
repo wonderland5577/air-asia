@@ -38,8 +38,14 @@
 
 .partners__link {
     filter: grayscale(1);
+
+    transition: .2s linear;
+
 }
 
 .partners__link:hover {
     filter: grayscale(0);
+
+    transition: .2s linear;
+
 }

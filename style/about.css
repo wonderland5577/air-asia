@@ -35,7 +35,7 @@
     margin-bottom: 45px;
 }
 
-.about__button {
+.button--white {
     display: block;
     height: 55px;
     width: 168px;
@@ -45,8 +45,13 @@
     color: white;
     font-size: 14px;
     font-weight: bold;
+
+    transition: .2s linear;
 }
 
-.about__button:hover {
+.button--white:hover {
     background-color: #DA0100;
+
+    transition: .2s linear;
+    
 }

@@ -1,14 +1,28 @@
 .container__feedback {
+    margin-bottom: 87px;
+}
+
+.feedback__list {
+    margin-bottom: 50px;
+    column-count: 2;
+    column-gap: 27px;
 }
 
 .feedback__item {
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-    margin-left: 28px;
-    margin-right: 27px;
+    display: inline-flex;
+    flex-direction: column;   
     width: 557px;
+    background-color: #F4F5F5;
 
+    margin-bottom: 17px;
+
+    padding-top: 55px;
+    padding-right: 30px;
+    padding-left: 28px;
+}
+
+.feedback__item:nth-child(2n) {
+    margin-right: 0;
 }
 
 .feedback__header {
@@ -26,38 +40,245 @@
 }
 
 .feedback__avatar {
-    height: 412px;
+    height: 142px;
     width: 142px;
+    overflow: hidden;
     border-radius: 50%;
 }
 
 .feedback__title {
     font-size: 30px;
     font-weight: bold;
-    color: black;
+    line-height: 42px;
+    color: #1A1B1E;
     margin-bottom: 13px;
+    padding-left: 3px;
 }
 
 .feedback__date {
     font-size: 14px;
     font-weight: bold;
-    color: black;
+    color: #1A1B1E;
+    margin-bottom: 36px;
 }
 
-.feedback__text {
-    color: black;
-    margin-bottom: 49px;
+.feedback__date--ivan {
+    margin-top: 25px;
 }
+
+.feedback__date--lisa {
+    margin-top: 30px;
+}
+
+.feedback__date--ekaterina {
+    margin-top: 17px;
+}
+
+.feedback__date--anton {
+    margin-top: 27px;
+}
+
+
+
+.feedback__text {
+    color: #818181;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.feedback__text--ekaterina {
+    margin-top: 10px;
+}
+
 
 .feedback__name {
     font-size: 24px;
     font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 9px;
+    color: #1A1B1E;
+
+    transition: .5s;
 }
 
-.feedback__list {
-    margin-bottom: 79px;
+.feedback__name:after {
+    content: url(../images/vk-blue.png);
+    margin-left: 7px;
+    height: 30px;
+    padding-top: 5px;
+}
+
+.feedback__name:hover {
+    text-decoration: underline;
+    color: #2E77A4;
+
+    transition: .2s;
+}
+
+.tag {
     display: flex;
-    margin-right: 27px;
-    /* width: 557px; */
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    height: 37px;
+    border-radius: 35px;
+    background-color: #E7E7E7;
+    font-size: 13px;
+    padding-left: 18px;
+    padding-right: 18px;
+    color: #303030;
 }
 
+.tag--active {
+    background-color: #B9EAE4;
+}
+
+/* SEPARATOR =======================================================================================*/
+
+.separator {
+    background: url(../images/banner.png);
+    min-height: 363px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.separator__content {
+    max-width: 55%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.separator__title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+
+
+/* FORM =======================================================================================*/
+
+.form {
+    background-color: #F4F5F5;
+}
+
+.form__container {
+    padding-top: 62px;
+    padding-bottom: 96px;
+}
+
+.form__row {
+    display: flex;
+}
+
+.form__input {
+    margin-bottom: 30px;
+    flex: 1;
+    margin-right: 30px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background: white;
+    padding: 22px 30px;
+    font-size: 18px;
+    color: #201123;
+}
+
+.form__input:last-child {
+    margin-right: 0;
+}
+
+.form__input::placeholder {
+    color: #666;
+}
+
+.form__input:focus {
+    border: 1px solid #F5170E;
+    outline: none;
+    color: #1A1B1E;
+    
+}
+
+.form__input--textarea {
+    height: 232px;
+    margin-bottom: 20px;
+}
+
+.form__title {
+    color: #1A1B1E;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+/* CONTROLS =======================================================================================*/
+
+.form__controls {
+    display: flex;
+    margin-bottom: 23px;
+}
+
+.form__controls-title {
+    color: #1A1B1E;
+    width: 35%;
+    font-size: 18px;
+
+    padding-top: 15px;
+}
+
+.tags {
+    flex: 2;
+}
+
+.controls {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    padding-bottom: 0px;
+}
+
+.controls__elem {
+    cursor: pointer;
+}
+
+.controls__item {
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+    background: #B9EAE4;
+    color: #1A1B1E;
+}
+
+.controls__checkbox {
+    display: none;
+}
+
+
+/* ======= BUTTONS */
+
+.buttons__container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__buttons {
+    display: flex;
+    width: 353px;
+    justify-content: space-between;
+}
+
+.button--dark {
+    color: white;
+    background-color: #8E8E8E;
+}
+
+.button--dark:hover {
+    background-color: #2B2B2B;
+}
