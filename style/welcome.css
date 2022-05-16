@@ -1,136 +1,3 @@
-/* .welcome {
-    min-width: 1920px;
-    min-height: 100%;
-    background-image: url(../images/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    position: relative;
-    
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.welcome__container {
-    margin: 0 auto;
-    width: 591px;
-    
-    position: absolute;
-    top: 44%;
-    left: 50%;
-    transform: scaleX(-50%);
-}
-
-.welcome__img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: scale(-50%, -50%);    
-}
-
-.welcome__content {    
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
-    justify-content: center;
-}
-
-.big-logo {
-    margin-bottom: 52px;
-    z-index: 1;
-}
-
-.big-logo::after {
-    content: "Открой для себя Азию";
-    font-size: 18px;
-    padding-left: 41px;
-}
-
-.login-btn {
-    z-index: 1;
-
-    display: block;
-    height: 55px;
-    width: 168px;
-    border-radius: 35px;
-    background-color: #DA0100;
-    color: white;
-    border: 1px solid #DA0100;
-    text-align: center;
-    padding-top: 19px;
-    font-size: 15px;
-    font-weight: bold;
-} */
-
-/* ========================================================= */
-
-
-/* .welcome {
-    min-width: 1920px;
-    min-height: 100%;
-    background-image: url(../images/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    position: relative;    
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.welcome__container {
-    margin: 0 auto;
-    width: 591px;
-    
-    position: absolute;
-    top: 44%;
-    left: 50%;
-    transform: scaleX(-50%);
-}
-
-.welcome__img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: scale(-50%, -50%);    
-}
-
-.welcome__content {    
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
-    justify-content: center;
-}
-
-.big-logo {
-    margin-bottom: 52px;
-    z-index: 1;
-}
-
-.big-logo::after {
-    content: "Открой для себя Азию";
-    font-size: 18px;
-    padding-left: 41px;
-}
-
-.login-btn {
-    display: block;
-    height: 55px;
-    width: 168px;
-    border-radius: 35px;
-    background-color: #DA0100;
-    color: white;
-    border: 1px solid #DA0100;
-    text-align: center;
-    padding-top: 19px;
-    font-size: 15px;
-    font-weight: bold;
-} */
-
 .welcome {
     display: flex;
     position: fixed;
@@ -168,26 +35,13 @@
 
 @keyframes bounce {
     0% {transform: scale(0);}
-    5% {transform: scale(0);}
-    10% {transform: scale(0);}
-    15% {transform: scale(.7);}
-    20% {transform: scale(.8);}
-    25% {transform: scale(.9);}
-    30% {transform: scale(1);}
-    35% {transform: scale(1.1);}
-    40% {transform: scale(1.2);}
-    45% {transform: scale(1.3);}
-    50% {transform: scale(1);}
-    55% {transform: scale(.9);}
-    60% {transform: scale(.8);}
-    65% {transform: scale(.9);}
-    70% {transform: scale(1);}
-    75% {transform: scale(1.1);}
-    80% {transform: scale(1.2);}
-    85% {transform: scale(1);}
-    90% {transform: scale(1);}    
-    95% {transform: scale(1);}    
-    100% {transform: scale(1);}
+    30% {transform: scale(0);}
+    50% {transform: scale(1.3);}
+    60% {transform: scale(.7);}
+    70% {transform: scale(1.2);}
+    80% {transform: scale(.9);}
+    90% {transform: scale(1.1);}
+    100% {transform: scale(1);}    
 }
 
 
