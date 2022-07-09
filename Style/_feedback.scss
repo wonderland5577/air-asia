@@ -1,0 +1,136 @@
+.feedback {   
+    &::after {
+        content: url('../images/circle-decor.png');
+        position: absolute;
+        left: 18%;
+        bottom: -2.0rem;    
+    }
+
+    &__title {
+        text-align: center;
+        margin-bottom: 3.2rem;
+    }    
+    &__content {
+        background: url(../images/feedback-bg.png);
+        padding: rem(50px) rem(45px) rem(35px);
+        display: flex;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: rem(20px);
+
+        @include tablets {
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: rem(40px);
+        }   
+    }    
+
+    &__list {
+        position: relative;
+        min-height: rem(280px);
+    }
+
+    &__item {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        pointer-events: none;   
+    }
+   
+    &__display-inner {
+        display: flex;
+      
+        @include tablets {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+
+    &__photo {
+        width: rem(253px);
+        height: rem(260px);
+        margin-right: rem(20px);
+
+        @include tablets {
+            margin-right: 0;
+            margin-bottom: rem(30px);
+        }
+
+        @include phones {
+            width: rem(124px);
+            height: rem(154px);
+        }  width: 30%;
+        }
+    
+    &__photo-avatar {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__desc {
+        flex: 1;
+        padding-right: rem(80px);
+        padding-top: rem(8px);
+
+        @include tablets {
+            text-align: center;
+            padding-right: 0;
+            padding-top: 0;
+         }
+    }
+
+    &__caption {
+        font-size: rem(30px);
+        font-weight: bold;
+        margin-bottom: rem(18px);
+        @include tablets {
+            // margin-top: rem(32px);
+        }
+    }
+
+    &__text {
+        margin-bottom: rem(9px);
+    }
+
+    &__name {
+        font-size: 1.8rem;
+        font-weight: bold;
+
+        @include tablets {
+            // margin-bottom: rem(20px);
+        }
+    }
+}
+
+.active {
+    position: static;
+    opacity: 1;
+    pointer-events: unset;
+  }
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+    &__item {
+        margin-right: .5rem;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+}
+.icon__link {
+    &:hover {
+        display: block;
+        border: .4rem solid $red;
+        outline: none;
+        width: 7.3rem;
+        height: 7.3rem;
+        border-radius: 10.0rem;
+    }
+}

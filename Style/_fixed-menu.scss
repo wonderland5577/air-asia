@@ -1,0 +1,44 @@
+.points {
+    // display: none;
+    @include tablets {
+        display: none;
+    }
+}
+
+.points__list {
+    position: fixed;
+    top: 25%;
+    right: 0.5%;
+    z-index: $z-index-points;
+}
+
+.points__item {
+    margin-bottom: .6rem;
+    &--active {
+        .points__link {
+            border-color: $red;
+        }
+    }
+}
+
+.points__link {
+    display: block;
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 50%;
+    border: .1rem solid transparent;
+    position: relative;
+
+    &::before {
+        content: "";
+        display: block;
+        width: .6rem;
+        height: .6rem;
+        border-radius: 50%;
+        background: $grey-text;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

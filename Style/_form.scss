@@ -1,0 +1,129 @@
+@mixin form__input {
+    display: block;
+    border: none;
+    padding: 1.7rem 1.1rem;
+    border-radius: .4rem;
+    border: solid .3rem transparent;
+    &:focus {
+        border: solid .3rem $red;
+        outline: none;
+    }
+
+    @include tablets {
+        padding: rem(3px);
+    }
+    
+    @include phones {
+        padding: rem(3px);
+    }
+ }
+
+.order {
+    background: url('../images/form-bg.png');
+    background-size: cover;
+    &__title {
+        margin-bottom: 6.0rem;
+        text-align: center;
+
+        @include tablets {
+            margin-bottom: rem(30px);
+        }
+    }
+    &::before {
+        content: url('../images/5angle.png');
+        position: absolute;
+        right: 10%;
+        top: -2.0rem;
+    }
+}
+
+
+.form {
+    display: flex;
+
+    @include tablets {
+        flex-direction: column;
+        padding: 0 17%;
+    }
+    
+    @include phones {
+        padding: 0 1%;
+    }
+
+    &__title {
+        color: white;
+        margin-bottom: .6rem;
+
+        @include tablets {
+            margin-bottom: rem(0px);
+        }
+    }    
+    &__col {
+        flex: 1;
+        margin-right: 2.6rem;
+        &:last-child {
+            margin-right: 0;
+        }
+
+        @include tablets {
+            margin-right: 0;
+        }
+    }
+    &__row {
+        display: flex;
+        margin-bottom: 1.0rem;
+    }
+    &__block {
+        flex: 1;
+        margin-right: 2.0rem;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__input {
+        @include form__input;
+        width: 100%;
+
+        @include tablets {
+            margin-bottom: rem(14px);
+        }
+    }
+    &__input--textarea {
+        @include form__input;
+        height: 15.2rem;
+        resize: none;
+        margin-bottom: 2.6rem;
+
+        @include tablets {
+            height: rem(80px);
+        }
+    }
+    &__controls {
+        display: flex;
+        flex-wrap: wrap;
+
+        @include phones {
+            justify-content: center;
+        }
+    }
+    &__btn {
+        display: flex;
+
+        @include tablets {
+            justify-content: center;
+        }   
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
